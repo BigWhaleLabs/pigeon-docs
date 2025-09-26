@@ -32,7 +32,7 @@ Available on:
 
 ### Security & Custody
 
-- **Wallet Type**: Privy MPC wallets (keys split securely)
+- **Wallet Type**: Privy (Stripe) MPC wallets (keys split securely, fully self-custodial and exportable)
 - **Private Key Export**: Available for Telegram/SMS/WhatsApp at [pigeon.trade/privy](https://pigeon.trade/privy)
 - **Other Platforms**: Discord, Farcaster, XMTP, Base App, etc. are not yet supported for key export
 - **Pigeon Access**: Zero access to your private keys

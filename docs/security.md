@@ -4,12 +4,13 @@ Pigeon prioritizes security while maintaining ease of use. Understanding how you
 
 ## Wallet Technology
 
-### Privy MPC (Multi-Party Computation)
+### Privy (Stripe) MPC (Multi-Party Computation)
 
 - **Distributed Keys**: Your private key is split across multiple secure parties
 - **No Single Point of Failure**: No one entity (including Pigeon) has access to your complete private key
 - **Secure Computation**: Transactions are signed through cryptographic protocols without key reconstruction
-- **Industry Standard**: Privy is a leading Web3 infrastructure provider trusted by major protocols
+- **Self-Custody**: Wallets are fully self-custodial and exportable
+- **Industry Standard**: Privy (Stripe) is a leading Web3 infrastructure provider trusted by major protocols
 
 ### Wallet Generation
 

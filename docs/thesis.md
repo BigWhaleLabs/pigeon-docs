@@ -96,6 +96,7 @@ Pigeon becomes your financial co-pilot.
 
 Markets reward both speed and caution. Pigeon provides powerful tools for sophisticated strategies while maintaining strict safety protocols:
 
+- **Self-custody**: Privy (Stripe) MPC wallets that are fully self-custodial and exportable
 - **Contract verification**: Every token operation shows contract addresses
 - **Position sizing**: Built-in limits prevent over-leveraging
 - **Risk disclosure**: Clear explanations of potential losses

@@ -94,7 +94,7 @@ Pigeon runs across multiple platforms:
 
 ### Wallet Generation and Custody
 
-- Pigeon uses **Privy MPC wallets**. Private keys are split and managed securely; Pigeon does not have access to your private key.
+- Pigeon uses **Privy (Stripe) MPC wallets**. Private keys are split and managed securely; Pigeon does not have access to your private key. Wallets are fully self-custodial and exportable.
 - **Private key export** is available for Telegram, SMS, and WhatsApp at: https://pigeon.trade/privy
 - Other platforms (Discord, Farcaster, XMTP, Base App, etc.) are not yet supported for key export.
 
@@ -1032,7 +1032,7 @@ If a tool is missing or not enabled, Pigeon will ask for confirmation and attemp
 
 ## Security and Compliance Notes
 
-- Privy MPC custody; Pigeon cannot access your private keys
+- Privy (Stripe) MPC custody; Pigeon cannot access your private keys; fully self-custodial and exportable
 - Telegram/SMS/WhatsApp users can export keys: https://pigeon.trade/privy
 - Markets and tools are volatile and high risk; do your own research
 - Respect venue-specific minimums and constraints (e.g., Hyperliquid min notional, Ostium min exposure, Jupiter min order value)
