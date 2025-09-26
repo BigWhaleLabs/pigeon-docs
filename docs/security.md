@@ -14,7 +14,7 @@ Pigeon prioritizes security while maintaining ease of use. Understanding how you
 ### Wallet Generation
 
 - **Automatic**: Wallets are generated automatically when you first interact with Pigeon
-- **Platform Specific**: Each platform (Telegram, Discord, etc.) creates separate wallets
+- **Platform Specific**: Each platform (Telegram, WhatsApp, Discord, Messenger, Farcaster, XMTP, Base App, SMS) creates separate wallets
 - **Multi-Chain**: You receive both EVM and Solana addresses
 - **Deterministic**: Your wallets are consistent and recoverable
 
@@ -30,6 +30,8 @@ Pigeon prioritizes security while maintaining ease of use. Understanding how you
 | Discord   | ❌ Not yet supported | -                          |
 | Farcaster | ❌ Not yet supported | -                          |
 | Messenger | ❌ Not yet supported | -                          |
+| XMTP      | ❌ Not yet supported | -                          |
+| Base App  | ❌ Not yet supported | -                          |
 
 ### Self-Custody Options
 

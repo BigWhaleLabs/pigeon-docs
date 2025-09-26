@@ -1,5 +1,9 @@
 # Quick Start Guide
 
+Pigeon is your AI quant for infinite markets. Make money in any market. Trade strategies across crypto, stocks, perps, predictions, and memes all in one chat.
+
+Pigeon is a multi-agent system that pairs world-class AI, automation, and protocols that digests everything onchain so users can navigate easily.
+
 Get up and running with Pigeon in just a few steps.
 
 ## 1. Choose Your Platform
@@ -12,6 +16,8 @@ Select from any of these platforms (each creates a separate account):
 - **Discord**: [Bot Invite Link](https://discord.com/oauth2/authorize?client_id=1390098020598550559&permissions=1126176932482112&integration_type=0&scope=bot)
 - **Farcaster**: https://farcaster.xyz/pigeontrade
 - **Messenger**: [Facebook Profile](https://www.facebook.com/profile.php?id=61578109435276)
+- **XMTP**: https://xmtp.chat/0xC410943B356321a3bBDFBC150D743480BF123370 (Decentralized messaging protocol)
+- **Base App**: https://join.base.app/ (Coinbase's Base Wallet App)
 
 ## 2. Fund Your Wallets
 
