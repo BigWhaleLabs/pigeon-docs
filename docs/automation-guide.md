@@ -58,6 +58,8 @@ Runtime cadence, data access strategy, and notification density are tuned so the
 - Your request sits in a managed queue—no need to stay online
 - You’re notified automatically the moment it activates
 - No interim action required; the platform handles orchestration end‑to‑end
+- You can continue using Pigeon normally: monitor markets, run manual queries, manage portfolio
+- You can submit additional automation requests; each is queued and processed independently (no need to wait for one to finish before creating the next)
 
 The generation window is a one‑time upfront cost that produces compounding leverage: a higher‑trust autonomous process that keeps delivering value long after creation.
 
