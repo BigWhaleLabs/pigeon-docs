@@ -5,6 +5,7 @@
 * [Getting Started](getting-started.md)
 * [Trading Guide](trading-guide.md)
 * [Portfolio Management](portfolio-management.md)
+* [Automation Guide](automation-guide.md)
 * [Advanced Features](advanced-features.md)
 * [Tools Reference](tools-reference.md)
 * [Best Practices](best-practices.md)
