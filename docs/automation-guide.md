@@ -5,6 +5,18 @@
 
 Pigeon's automation engine transforms plain‑language intents into continuously operating autonomous monitoring and decision loops. Instead of brittle, hand‑written scripts, you get adaptive, self‑validating automations that compound insight over time while staying operator-light and risk-aware. This guide explains how to leverage that capability effectively (without exposing any sensitive implementation internals).
 
+### Current Limitations (Important)
+
+These will evolve, but right now:
+
+- **No Direct Code Access**: You cannot view or edit the internal generated automation code. It’s an encapsulated artifact produced by the platform. Any adjustments require submitting a new or refined request.
+- **No Persistent Cross-Run Memory Yet**: Automations currently treat each execution independently (stateless). Historical comparisons and adaptive baselining are roadmap features (see "Future: Memory & State").
+- **Notification Suppression Is Opaque**: If you requested conditional alerts (e.g., “only notify if X happens”), the system may silently withhold updates until that condition is satisfied. There’s no per-run visibility into the internal flag—interpret silence as “condition not met” unless a failure notification arrives.
+- **Fixed Execution Envelope**: Runtime, resource usage, and cadence ceilings are enforced internally; attempts to exceed them may result in quiet truncation or failure notices.
+- **Revise by Re‑Request**: There is no live editing; improvements require issuing an updated automation request.
+
+We surface only user-relevant outcomes to keep complexity low and protect platform integrity while features mature.
+
 ## How Automation Works
 
 ### High-Level Architecture
@@ -251,9 +263,9 @@ You'll receive notifications for:
 - Use more precise filtering to optimize performance
 
 **"No notifications received"**
-- Check if your automation uses `conditionSatisfied: false`
-- Verify the automation is actually executing (check task list)
-- Ensure your notification conditions are being met
+- If you specified conditional logic (e.g., “only alert if price moves 5%”), the platform may be intentionally suppressing routine executions until the trigger fires.
+- Verify the automation appears in your active list and shows recent run times.
+- Consider lowering thresholds or adding a periodic summary clause (e.g., “...and send a baseline update every 6 hours even if unchanged”).
 
 ### Getting Help
 
@@ -264,12 +276,14 @@ If you encounter issues:
 
 ## Advanced Features
 
-### Memory and State Management
+### Future: Memory and State Management (Roadmap)
 
-Automations can store data between executions to:
-- Track historical values for comparison
-- Maintain running averages or calculations  
-- Remember previous alert states to avoid duplicates
+Planned enhancements (not yet active) will enable automations to:
+- Maintain lightweight state across executions (e.g., last price, previous alert threshold)
+- Track rolling statistics and volatility bands
+- Suppress duplicate notifications with richer context awareness
+
+Until this ships, design requests assuming each run is **stateless**. If you need historical perspective now, explicitly ask the automation to fetch and compare external reference data each execution (e.g., “compare current price to 24h average from source X”).
 
 ### Complex Decision Making
 
