@@ -154,7 +154,7 @@ Duration: Run indefinitely
 
 ### Access Control
 
-Currently, automation creation is restricted to authorized users. Contact support if you need access.
+Currently, automation creation is restricted to authorized users. Contact support if you need access: **Support Chat (Telegram)**: https://t.me/pigeon_trade_support
 
 ## Best Practices
 
@@ -275,6 +275,7 @@ If you encounter issues:
 1. Check the automation execution history for error messages
 2. Review this guide for best practices and examples
 3. Contact support with specific automation details and error messages
+4. Live help: **Telegram Support Chat** → https://t.me/pigeon_trade_support
 
 ## Advanced Features
 
