@@ -67,7 +67,7 @@ If your client requests scopes, use `mcp:tools`. This is required for tool acces
 claude mcp add -t http -s user pigeon https://backend.pigeon.trade/mcp
 ```
 
-Use `user`, `project`, or `local` for the `-s` scope.
+`-s` chooses where Claude Code stores the config. Use `user` if unsure.
 
 ### Claude Desktop
 
@@ -158,23 +158,6 @@ In repo Settings > Copilot > Coding agent, add:
 
 Use the remote MCP URL and authenticate via OAuth when prompted:
 `https://backend.pigeon.trade/mcp`
-
-## Cursor install link (one-click)
-
-Config JSON:
-
-```json
-{
-  "type": "http",
-  "url": "https://backend.pigeon.trade/mcp"
-}
-```
-
-Install link:
-
-```text
-cursor://anysphere.cursor-deeplink/mcp/install?name=pigeon&config=eyJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vYmFja2VuZC5waWdlb24udHJhZGUvbWNwIn0=
-```
 
 ## After connecting
 
