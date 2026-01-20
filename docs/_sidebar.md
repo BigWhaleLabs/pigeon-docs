@@ -7,6 +7,7 @@
 * [Portfolio Management](portfolio-management.md)
 * [Pigeon Code](pigeon-code.md)
 * [App Integrations](integrations.md)
+* [MCP Setup](mcp.md)
 * [Pigeon API](api.md)
 * [Advanced Features](advanced-features.md)
 * [Tools Reference](tools-reference.md)
