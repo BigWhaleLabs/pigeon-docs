@@ -18,14 +18,6 @@ Remote MCP server URL:
 Pigeon MCP uses OAuth. The first time you connect, your client will open a browser to sign in and grant access.
 If your client asks for OAuth scopes, use `mcp:tools`.
 
-### How OAuth works (high level)
-
-1. Your client contacts the MCP server and receives a 401 challenge.
-2. The client discovers OAuth endpoints via `/.well-known/oauth-authorization-server`.
-3. The client registers (dynamic client registration) or uses its own client ID.
-4. Your browser opens to approve access.
-5. The client stores the access token and uses it on MCP requests.
-
 ### Auth steps by client
 
 #### Cursor
